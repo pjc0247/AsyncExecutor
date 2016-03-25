@@ -7,9 +7,10 @@ AsyncExecutor for Unity
 IEnumerator MyFunc() {
   Debug.Log("Before exe");
   
+  int result = 0;
   yield return new AsyncExecutor(() => {
     // This job will be dispatched on worker-thread.
-    VeryLongTask();
+    result = VeryLongTask();
   });
   
   Debug.Log("After exe");
