@@ -35,8 +35,8 @@ public class SignalEnumerator : IEnumerator
     }
     public void Notify()
     {
-        Thread.MemoryBarrier();
         signaled = true;
+        Thread.MemoryBarrier();
     }
 }
 public class AsyncExecutor : SignalEnumerator
