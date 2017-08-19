@@ -1,5 +1,5 @@
 using System;
-using System.Collection;
+using System.Collections;
 using System.Threading;
 
 public class SignalEnumerator : IEnumerator
@@ -57,3 +57,4 @@ public class AsyncExecutor : SignalEnumerator
             Notify();
         })).Start();
     }
+}
