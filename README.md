@@ -1,7 +1,7 @@
 # AsyncExecutor
 AsyncExecutor for Unity
 <br>
-`async`는 없어서 못쓰고, 쓰레드 작업은 해야하고, 작업 시퀸스는 맞춰야 할 때
+Provides yieldable asynchronous task. (alternative for `await`)
 
 ```c#
 IEnumerator MyFunc() {
