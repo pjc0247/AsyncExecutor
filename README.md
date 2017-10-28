@@ -1,5 +1,5 @@
 # AsyncExecutor
-AsyncExecutor for Unity
+<b>AsyncExecutor for Unity</b>
 <br>
 Provides yieldable asynchronous task. (alternative for `await`)
 
